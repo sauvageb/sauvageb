@@ -1,103 +1,159 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-                @keyframes rotate {
-                0% {
-                transform: rotate(3deg);
-                }
-                100% {
-                transform: rotate(-3deg);
-                }
+
+            <style type="text/css">
+                div {
+                    font-size: medium;
+                    font-family: Arial;
+                    vertical-align: -webkit-baseline-middle;
+                    /* border: 1px solid black; */
                 }
 
-                @keyframes gradientBackground {
-                0% {
-                background-position: 0% 50%;
-                }
-                50% {
-                background-position: 100% 50%;
-                }
-                100% {
-                background-position: 0% 50%;
-                }
+                .subtitle {
+                    margin: 0px;
+                    font-size: 14px;
+                    line-height: 22px;
                 }
 
-                @keyframes fadeIn {
-                0% {
-                opacity: 0;
-                }
-                66% {
-                opacity: 0;
-                }
-                100% {
-                opacity: 1;
-                }
+                .h-30 {
+                    height: 30px;
                 }
 
-                .container {
-                font-family:
-                system-ui,
-                -apple-system,
-                'Segoe UI',
-                Roboto,
-                Helvetica,
-                Arial,
-                sans-serif,
-                'Apple Color Emoji',
-                'Segoe UI Emoji';
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                margin: 0;
-                width: 100%;
-                height: 400px;
-                background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
-                background-size: 600% 400%;
-                animation: gradientBackground 10s ease infinite;
-                border-radius: 10px;
-                color: white;
-                text-align: center;
+                .separator {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    border-bottom: 1px solid rgb(69, 58, 218);
+                    display: block;
                 }
 
-                h1 {
-                font-size: 50px;
-                line-height: 1.3;
-                letter-spacing: 5px;
-                text-transform: uppercase;
-                text-shadow:
-                0 1px 0 #efefef,
-                0 2px 0 #efefef,
-                0 3px 0 #efefef,
-                0 4px 0 #efefef,
-                0 12px 5px rgba(0, 0, 0, 0.1);
-                animation: rotate ease-in-out 1s infinite alternate;
+                .logo {
+                    width: 130px;
+                    max-width: 130px;
+                    display: block;
                 }
 
-                p {
-                font-size: 20px;
-                text-shadow: 0 1px 0 #efefef;
-                animation: 5s ease 0s normal forwards 1 fadeIn;
+                .icon {
+                    display: block;
+                    background-color: #453ADA;
+                    height: 24px;
+                }
+
+                .icon-link {
+                    color: black;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+
+                .icon-details {
+                    background-color: #453ADA;
+                    height: 13px;
+                    margin-right: 15px;
+                }
+
+                .rounded {
+                    border-radius: 50%;
+                    border: 1px solid #453ADA;
+                    width: 130;
+                    max-width: 128px;
+                    display: block;
+                }
+
+                .btn-schedule {
+                    border-width: 6px 12px;
+                    border-style: solid;
+                    border-color: rgb(69, 58, 218);
+                    display: inline-block;
+                    background-color: rgb(69, 58, 218);
+                    color: rgb(255, 255, 255);
+                    font-weight: 700;
+                    text-decoration: none;
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 12px;
+                    border-radius: 3px;
+                }
+
+                .flex-center {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .mt-30 {
+                    margin-top: 30px;
+                }
+
+                .mb-30 {
+                    margin-bottom: 30px;
+                }
+
+                .flex-container {
+                    display: flex;
+                    height: 200px;
+                    align-items: center;
+                }
+
+                .flex-container > div {
+                    background-color: #f1f1f1;
+                    width: 100px;
+                    margin: 5px;
+                    text-align: center;
+                    line-height: 75px;
+                    font-size: 30px;
                 }
             </style>
-            <div class="container">
-                <h1>Made with HTML &amp; CSS<br/>not an animated GIF
-                </h1>
-                <p>Click to see the source</p>
-            </div>
+
             <div style="display:flex;padding: 2px;"> 
                 <div>
                     <div class="flex-center">
-                        <img class="rounded" src="img/sauvageb.png">
+                        <img class="rounded" src="https://github.com/sauvageb/sauvageb/raw/main/img/sauvageb.png">
                     </div>
                     <div class="flex-center">
-                        <img class="logo" src="img/logo.png">
+                        <img class="logo" src="https://github.com/sauvageb/sauvageb/raw/main/img/logo.png">
                     </div>
                     <div style=" display: flex;justify-content: center;">
-                        <img src="img/facebook-icon-2x.webp" class="icon" style="margin:5px">
-                        <img src="img/twitter-icon-2x.webp" class="icon" style="margin:5px">
-                        <img src="img/instagram-icon-2x.webp" class="icon" style="margin:5px">
+                        <img src="https://github.com/sauvageb/sauvageb/raw/main/img/facebook-icon-2x.webp" class="icon"
+                             style="margin:5px">
+                        <img src="https://github.com/sauvageb/sauvageb/raw/main/img/twitter-icon-2x.webp" class="icon"
+                             style="margin:5px">
+                        <img src="https://github.com/sauvageb/sauvageb/raw/main/img/instagram-icon-2x.webp" class="icon"
+                             style="margin:5px">
+                    </div>
+                </div>
+
+                <div style="margin-left:46px">
+                    <h3 style="margin:0px">BORIS SAUVAGE</h3>
+                    <p class="subtitle">Formateur & Consultant | FREELANCER</p>
+                    <div class="separator"></div>
+
+                    <div>
+
+                        <div style="display: flex;align-items: center;margin-bottom: 15px;">
+                            <img src="https://github.com/sauvageb/sauvageb/raw/main/img/phone-icon-2x.webp"
+                                 class="icon-details">
+                            <a href="tel:0680883962" class="icon-link" target="_blank">06 80 88 39 62</a>
+
+                        </div>
+                        <div style="display: flex;align-items: center;margin-bottom: 15px;">
+                            <img src="https://github.com/sauvageb/sauvageb/raw/main/img/email-icon-2x.webp"
+                                 class="icon-details">
+                            <a href="mailto:sauvageboris.pro@gmail.com" class="icon-link" target="_blank">
+                                sauvageboris.pro@gmail.com
+                            </a>
+                        </div>
+                        <div style="display: flex; align-items: center;margin-bottom: 15px;">
+                            <img src="https://github.com/sauvageb/sauvageb/raw/main/img/address-icon-2x.webp"
+                                 class="icon-details">
+                            <a href="https://goo.gl/maps/5ddsT1tAksF7eZs28" class="icon-link" target="_blank">FRANCE</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a rel="noopener noreferrer" class="btn-schedule mt-30 mb-30"
+                           href="#"
+                           target="_blank"
+                           data-saferedirecturl="#">
+                            Action
+                        </a>
                     </div>
                 </div>
             </div>
