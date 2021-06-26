@@ -1,0 +1,140 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                div {
+                font-size: medium;
+                font-family: Arial;
+                vertical-align: -webkit-baseline-middle;
+                }
+                .subtitle {
+                margin: 0px;
+                font-size: 14px;
+                line-height: 22px;
+                }
+                .h-30 {
+                height: 30px;
+                }
+                .separator {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                border-bottom: 1px solid rgb(69, 58, 218);
+                display: block;
+                }
+                .logo {
+                width: 130px;
+                max-width: 130px;
+                display: block;
+                }
+                .icon {
+                display: block;
+                background-color: #453ADA;
+                height: 24px;
+                }
+                .icon-link {
+                color: black;
+                text-decoration: none;
+                font-size: 12px;
+                }
+                .icon-details {
+                background-color: #453ADA;
+                height: 13px;
+                margin-right: 15px;
+                }
+                .rounded {
+                border-radius: 50%;
+                border: 1px solid #453ADA;
+                width: 130;
+                max-width: 128px;
+                display: block;
+                }
+                .btn-schedule {
+                border-width: 6px 12px;
+                border-style: solid;
+                border-color: rgb(69, 58, 218);
+                display: inline-block;
+                background-color: rgb(69, 58, 218);
+                color: rgb(255, 255, 255);
+                font-weight: 700;
+                text-decoration: none;
+                text-align: center;
+                line-height: 40px;
+                font-size: 12px;
+                border-radius: 3px;
+                }
+                .flex-center {
+                display: flex;
+                justify-content: center;
+                }
+                .mt-30 {
+                margin-top: 30px;
+                }
+                .mb-30 {
+                margin-bottom: 30px;
+                }
+                .flex-container {
+                display: flex;
+                height: 200px;
+                align-items: center;
+                }
+                .flex-container > div {
+                background-color: #f1f1f1;
+                width: 100px;
+                margin: 5px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+                }
+            </style>
+
+            <div style="display:flex;padding: 2px;"> 
+                <div>
+                    <div class="flex-center">
+                        <img class="rounded" src="img/sauvageb.png">
+                    </div>
+                    <div class="flex-center">
+                        <img class="logo" src="img/logo.png">
+                    </div>
+                    <div style=" display: flex;justify-content: center;">
+                        <img src="img/facebook-icon-2x.webp" class="icon" style="margin:5px">
+                        <img src="img/twitter-icon-2x.webp" class="icon" style="margin:5px">
+                        <img src="img/instagram-icon-2x.webp" class="icon" style="margin:5px">
+                    </div>
+                </div>
+
+                <div style="margin-left:46px">
+                    <h3 style="margin:0px">BORIS SAUVAGE</h3>
+                    <p class="subtitle">Formateur & Consultant | FREELANCER</p>
+                    <div class="separator"></div>
+
+                    <div>
+
+                        <div style="display: flex;align-items: center;margin-bottom: 15px;">
+                            <img src="img/phone-icon-2x.webp" class="icon-details">
+                            <a href="tel:0680883962" class="icon-link" target="_blank">06 80 88 39 62</a>
+
+                        </div>
+                        <div style="display: flex;align-items: center;margin-bottom: 15px;">
+                            <img src="img/email-icon-2x.webp" class="icon-details">
+                            <a href="mailto:sauvageboris.pro@gmail.com" class="icon-link" target="_blank">
+                                sauvageboris.pro@gmail.com
+                            </a>
+                        </div>
+                        <div style="display: flex; align-items: center;margin-bottom: 15px;">
+                            <img src="img/address-icon-2x.webp" class="icon-details">
+                            <a href="https://goo.gl/maps/5ddsT1tAksF7eZs28" class="icon-link" target="_blank">FRANCE</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a rel="noopener noreferrer" class="btn-schedule mt-30 mb-30"
+                           href="https://meetings.hubspot.com/boris-sauvage"
+                           target="_blank"
+                           data-saferedirecturl="https://www.google.com/url?q=https://meetings.hubspot.com/boris-sauvage">
+                            Prenez rdv avec moi
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
