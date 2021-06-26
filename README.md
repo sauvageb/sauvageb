@@ -1,3 +1,3 @@
 <div align="center">
-    <img src="img/sauvageb.png" alt="sauvageb">
+    <img src="img/sauvagebb.png" alt="sauvageb">
 </div>
